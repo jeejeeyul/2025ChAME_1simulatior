@@ -1,0 +1,5 @@
+ID,CharacterName,Dialogue,BackgroundName,Choice1Text,Choice1NextID,Choice2Text,Choice2NextID
+1,근출,안녕! 오늘도 좋은 하루야,park_bg,,,,
+2,근출,어디 가고 싶어?,park_bg,자진입대,3,도망,4
+3,근출,기합!,cafe_bg,,,,
+4,근출,기열!!!!!!!,park_bg,,,,

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TitleUI.uss?fileID=7433441132597879392&amp;guid=1e0b0ce5d7eff0c4ba34f1f7a19e22ba&amp;type=3#TitleUI" />
+    <ui:VisualElement class="root" style="background-image: resource(&apos;image/TitleBackground&apos;);">
+        <ui:Label text="주점 이야기" class="title" style="-unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/font/PF%20stardust%203.0.ttf?fileID=12800000&amp;guid=6812c2072e00a7644b6fd1af6d64dd34&amp;type=3#PF stardust 3.0&quot;);" />
+        <ui:VisualElement name="VisualElement" class="button-container" style="-unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/font/PF%20stardust%203.0.ttf?fileID=12800000&amp;guid=6812c2072e00a7644b6fd1af6d64dd34&amp;type=3#PF stardust 3.0&quot;); -unity-font-style: bold;">
+            <ui:Button name="StartButton" text="시작하기" class="menu-btn" />
+            <ui:Button name="LoadButton" text="불러오기" class="menu-btn" />
+            <ui:Button name="OptionsButton" text="설정" class="menu-btn" />
+            <ui:Button name="ExitButton" text="종료" class="menu-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
